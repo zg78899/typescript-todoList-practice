@@ -184,8 +184,8 @@ const listReducer =  (state = initialState,action:ListsAction):ListState=>{
         console.log(updateTasks);
         copiedList.tasks = updateTasks;
         copiedListsFromLS6[copiedList.id] = copiedList;
-        console.log(copiedList)
-        console.log(copiedListsFromLS6[copiedList.id])
+        // console.log(copiedList);
+        // console.log(copiedListsFromLS6[copiedList.id])
         saveListsToLS(copiedListsFromLS6);
 
         return {

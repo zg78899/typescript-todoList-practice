@@ -1,6 +1,6 @@
 import React,{FC} from 'react'
 import { useDispatch } from 'react-redux';
-import { deleteList, deleteTask, unsetTaskToDelete, unsetTaskToEdit } from '../store/action/list.action';
+import { deleteTask, unsetTaskToDelete } from '../store/action/list.action';
 import { setNotification } from '../store/action/notification.action';
 import { List, Task } from '../store/types';
 
